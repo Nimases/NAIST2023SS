@@ -1,6 +1,7 @@
 import unittest
 from NAIST23SS.CSVPrinter import CSVPrinter
 
+
 def setUpModule():
     print('Running setUpModule')
 
