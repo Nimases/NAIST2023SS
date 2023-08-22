@@ -1,5 +1,5 @@
 import unittest
-from NAIST23SS.CSVPrinter import CSVPrinter
+from NAIST2023SS.CSVPrinter import CSVPrinter
 
 
 def setUpModule():
