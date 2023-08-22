@@ -27,15 +27,14 @@ class TestCSVPrinter(unittest.TestCase):
     "行数の確認"
     def test_read1(self):
         
-        printer = CSVPrinter("/Users/tomoki/Programs/python/NAIST23SS/tests/sample.csv")
+        printer = CSVPrinter("sample.csv")
         line = printer.read()
         self.assertEqual(2, len(line))
         print("test1")
-    
 
     def test_read2(self):
 
-        printer = CSVPrinter("/Users/tomoki/Programs/python/NAIST23SS/tests/sample.csv")
+        printer = CSVPrinter("sample.csv")
         line = printer.read()
         test  = ["a", "a"]
         self.assertEqual(line[0], test)
